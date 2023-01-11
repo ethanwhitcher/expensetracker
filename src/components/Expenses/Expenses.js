@@ -8,6 +8,7 @@ const Expenses = (props) => {
     const [filteredYear, setFilteredYear] = useState('2022');
     
     const yearChangeHandler = (enteredYearData) => {
+        // gets passed current year of filter
         setFilteredYear(enteredYearData);
     }
 
